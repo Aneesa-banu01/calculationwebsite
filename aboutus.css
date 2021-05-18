@@ -1,0 +1,40 @@
+body{
+    padding:10px;
+    margin-top:5px;
+    background-color: #4e5d72;
+}
+.one h1{
+    color:rgb(8, 1, 14);
+    font-size:25px;
+    font-family:sans-serif;
+    text-decoration:dashed;
+}
+.one p{
+    font-size:20px;
+}
+.calculator button {
+         color:rgba(1, 7, 7, 0.952);
+         font-size: 25px;
+         background: none;
+         border-radius:12px 12px 12px 12px;
+}
+.calculator button:hover{
+    display: block;
+	height: 50px;
+	border-radius: 10px;
+	outline: none;
+	border: 2px solid #fff;
+	background:none;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .5s;
+}
+.calculator p{
+    font-size: 20px;
+    color:black;
+}
+.calculator a{
+    text-decoration: none;
+}

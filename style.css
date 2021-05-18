@@ -1,0 +1,90 @@
+body{
+ background: linear-gradient(#141e30, #243b55);
+}
+.calc-contain{
+width:250px;
+height:400px;
+margin:80px auto;
+background: #091921;
+box-shadow:2px 4px 9px;
+}
+.output{
+    width:200px;
+    margin:20px auto;
+}
+h2{
+    position: fixed;
+    top:13.9%;
+    left:47%;
+    color:#fff;
+    letter-spacing: 1.9px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: inter,sans-serif;
+    font-size: 10px;
+    }
+#display{
+    border:none;
+    outline: none;
+    color:black;
+    text-align: right;
+    font-weight: 700;
+    padding:15px;
+    margin:30px 0 20px 0;
+    background:#fff;
+    border-radius:4px;
+}    
+.button{
+    margin:17px 0 0 5px;
+    width:42px;
+    height:42px;
+    border:none;
+    outline:none;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 50px;
+    background: #fff;
+    display:inline-block;
+    color:#091921;
+}
+.button:hover{
+    box-shadow: 0 0 2px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff ;
+}
+.clearButton{
+    background:#fff;
+}
+.numbutton{
+    background: #ffffff;
+    color:#091921;
+}
+.numbuttons{
+    background: #03b1ff;
+    color:#091921;
+}
+.numbuttons:hover{
+    box-shadow: 0 0 2px #03b1ff, 0 0 1px #03b1ff, 0 0 2px #03b1ff ;
+}
+.numbutton:hover{
+    box-shadow: 0 0 2px #03b1ff, 0 0 1px #03b1ff, 0 0 2px #03b1ff ;
+}
+.numbuttons-c{
+    background: #03b1ff;
+    color:#091921;
+}
+.numbuttons-c:hover{
+    box-shadow: 0 0 2px #03b1ff, 0 0 1px #03b1ff, 0 0 2px #03b1ff ;  
+}
+.buttons{
+    margin:17px 0 0 5px;
+    width:200px;
+    height:42px;
+    border:none;
+    outline:none;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 50px;
+    background:red;
+    display:inline-block;
+    color:#091921;
+}
+
